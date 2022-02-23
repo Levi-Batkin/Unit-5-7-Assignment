@@ -33,7 +33,7 @@
 ## About The Project
 
 Known Issues:
-* ~~Audio not automatically playing on start.~~
+* ~~Audio not automatically playing on start.~~ - Fixed.
 </br>
 
 ### Built With
@@ -54,7 +54,7 @@ This shows how to install and use Skyline!
 ### Installation
 
 1. Head to the releases page: [Click me!](https://github.com/Levi-Batkin/Unit-5-7-Assignment/releases)
-2. View assets and download the ZIP file Game Menu Build.zip
+2. View assets and download the ZIP file Game.Menu.Build.Final.zip
 3. Right click the zip in your file explorer and click Extract.
 4. Run Creepy Caves.exe
 
