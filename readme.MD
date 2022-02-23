@@ -13,10 +13,10 @@
     <img src="https://avatars.githubusercontent.com/u/90899332?s=40&v=4" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Creepy Caves</h3>
+  <h3 align="center">Skyline</h3>
 
   <p align="center">
-    A game built for my Unit 1 Assignment!
+    A game menu built for my Unit 5+7 Assignment!
     <br />
     <a href="https://github.com/Levi-Batkin/Unit-5-7-Assignment/releases"><strong>Download »</strong></a>
     <br />
@@ -33,8 +33,8 @@
 ## About The Project
 
 Known Issues:
-* ~~Animations flickering between idle and moveleft animation.~~
-</br>   ^ Fixed animations from not displaying correctly when moving left or right.
+* ~~Audio not automatically playing on start.~~
+</br>
 * Sometimes the Tilemap does not load properly on the executable, you will need to restart the game to see the full effect.
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -54,7 +54,7 @@ This shows how to install and use Creepy Caves.!
 ### Installation
 
 1. Head to the releases page: [Click me!](https://github.com/Levi-Batkin/Unit-5-7-Assignment/releases)
-2. View assets and download the ZIP file Creepy Caves.
+2. View assets and download the ZIP file Game Menu Build.zip
 3. Right click the zip in your file explorer and click Extract.
 4. Run Creepy Caves.exe
 
