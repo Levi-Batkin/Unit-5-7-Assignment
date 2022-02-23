@@ -45,7 +45,7 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This shows how to install and use Creepy Caves.!
+This shows how to install and use Skyline!
 
 ### Prerequisites
 
