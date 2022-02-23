@@ -84,7 +84,7 @@ Describe your License for your project.
 
 Distributed under the GNU License. See `LICENSE.md` for more information.
 
-Project Link: [https://github.com/Levi-Batkin/Unit-1-Assignment](https://github.com/Levi-Batkin/Unit-5-7-Assignment)
+Project Link: [https://github.com/Levi-Batkin/Unit-5-7-Assignment](https://github.com/Levi-Batkin/Unit-5-7-Assignment)
 
 <h2> Hey there! I'm Levi. <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
 
