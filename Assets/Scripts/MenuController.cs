@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 public class MenuController : MonoBehaviour
 {
     public GameObject mainmenu, optionsmenu, howtoplaymenu;
@@ -10,11 +11,12 @@ public class MenuController : MonoBehaviour
     public GameObject musicon, musicoff;
     public GameObject am;
     public Button playgame, diffeasy;
+    [SerializeField] Slider music;
     // Start is called before the first frame update
     void Start()
     {
-        playgame = GetComponent<Button>();
-        playgame.Select();
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(playgame.gameObject, new BaseEventData(eventSystem));
     }
 
     public void PlayClick()
@@ -27,8 +29,8 @@ public class MenuController : MonoBehaviour
         optionsmenu.SetActive(false);
         howtoplaymenu.SetActive(false);
         mainmenu.SetActive(true);
-        playgame = GetComponent<Button>();
-        playgame.Select();
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(playgame.gameObject, new BaseEventData(eventSystem));
     }
     public void Game()
     {
@@ -39,7 +41,8 @@ public class MenuController : MonoBehaviour
     {
         PlayClick();
         optionsmenu.SetActive(true);
-        diffeasy = GetComponent<Button>();
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(diffeasy.gameObject, new BaseEventData(eventSystem));
         diffeasy.Select();
         mainmenu.SetActive(false);
     }
@@ -59,6 +62,8 @@ public class MenuController : MonoBehaviour
         easydiff.SetActive(true);
         normaldiff.SetActive(false);
         harddiff.SetActive(false);
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(easydiff, new BaseEventData(eventSystem));
     }
     public void ChangeToNormal()
     {
@@ -66,6 +71,8 @@ public class MenuController : MonoBehaviour
         easydiff.SetActive(false);
         normaldiff.SetActive(true);
         harddiff.SetActive(false);
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(normaldiff, new BaseEventData(eventSystem));
     }
     public void ChangeToHard()
     {
@@ -73,17 +80,25 @@ public class MenuController : MonoBehaviour
         easydiff.SetActive(false);
         normaldiff.SetActive(false);
         harddiff.SetActive(true);
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(harddiff, new BaseEventData(eventSystem));
     }
     public void TurnMusicOn()
     {
         PlayClick();
         musicon.SetActive(true);
         musicoff.SetActive(false);
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(musicon, new BaseEventData(eventSystem));
+        music.value = 0.1f;
+        PlayerPrefs.SetFloat("vol", 0.1f);
     }
     public void TurnMusicOff()
     {
         PlayClick();
         musicon.SetActive(false);
         musicoff.SetActive(true);
+        var eventSystem = EventSystem.current;
+        eventSystem.SetSelectedGameObject(musicoff, new BaseEventData(eventSystem));
     }
 }

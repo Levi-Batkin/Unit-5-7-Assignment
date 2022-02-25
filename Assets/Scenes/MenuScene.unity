@@ -288,6 +288,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 0}
 --- !u!114 &141808284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,6 +674,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!1 &277555168
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +832,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!1 &290829146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,6 +1710,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!114 &591406905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,6 +2181,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!1 &839231112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2987,6 +2992,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!114 &1018048766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3125,6 +3131,7 @@ GameObject:
   - component: {fileID: 1050089858}
   - component: {fileID: 1050089857}
   - component: {fileID: 1050089856}
+  - component: {fileID: 1050089861}
   m_Layer: 5
   m_Name: 'Music: Off (Button) '
   m_TagString: Untagged
@@ -3155,6 +3162,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!114 &1050089857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3269,6 +3277,22 @@ RectTransform:
   m_AnchoredPosition: {x: 2.4879, y: -84}
   m_SizeDelta: {x: 211.92, y: 49.7602}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1050089861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050089855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b48c123ff230974f89644abe82b4407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleMusic: {fileID: 1162684279}
+  music: {fileID: 1637276888}
+  musicon: {fileID: 1018048763}
+  musicoff: {fileID: 1050089855}
 --- !u!1 &1089624412
 GameObject:
   m_ObjectHideFlags: 0
@@ -3466,6 +3490,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 0}
 --- !u!114 &1096282761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3623,6 +3648,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 0}
 --- !u!114 &1159799841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3800,7 +3826,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4467,6 +4493,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 277555170}
   diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!1 &1523156371
 GameObject:
   m_ObjectHideFlags: 0
@@ -4904,7 +4931,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1623399637
 GameObject:
   m_ObjectHideFlags: 0
@@ -5953,6 +5980,7 @@ MonoBehaviour:
   am: {fileID: 1162684275}
   playgame: {fileID: 0}
   diffeasy: {fileID: 0}
+  music: {fileID: 0}
 --- !u!114 &2008923364
 MonoBehaviour:
   m_ObjectHideFlags: 0
