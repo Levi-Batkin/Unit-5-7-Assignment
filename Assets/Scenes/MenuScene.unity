@@ -3780,6 +3780,11 @@ MonoBehaviour:
     volume: 0.418
     pitch: 1
     source: {fileID: 0}
+  - name: click2
+    clip: {fileID: 8300000, guid: 89edf2b798d4c1845ba547a3481c8107, type: 3}
+    volume: 0.915
+    pitch: 0.73
+    source: {fileID: 0}
   music: {fileID: 1637276888}
   sfx: {fileID: 1405030451}
 --- !u!4 &1162684277
@@ -3822,7 +3827,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cd5f46a67bb8d7641ab0d3dd75e36d7c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d99a8dbbdf8dd9d4ea2e71c2b8d6df03, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5978,9 +5983,9 @@ MonoBehaviour:
   musicon: {fileID: 1018048763}
   musicoff: {fileID: 1050089855}
   am: {fileID: 1162684275}
-  playgame: {fileID: 0}
-  diffeasy: {fileID: 0}
-  music: {fileID: 0}
+  playgame: {fileID: 277555170}
+  diffeasy: {fileID: 141808284}
+  music: {fileID: 1637276888}
 --- !u!114 &2008923364
 MonoBehaviour:
   m_ObjectHideFlags: 0

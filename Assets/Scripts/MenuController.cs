@@ -23,9 +23,13 @@ public class MenuController : MonoBehaviour
     {
         am.GetComponent<AudioManager>().PlaySFX("click");
     }
+    public void PlayClick2()
+    {
+        am.GetComponent<AudioManager>().PlaySFX("click2");
+    }
     public void MainMenu()
     {
-        PlayClick();
+        PlayClick2();
         optionsmenu.SetActive(false);
         howtoplaymenu.SetActive(false);
         mainmenu.SetActive(true);
